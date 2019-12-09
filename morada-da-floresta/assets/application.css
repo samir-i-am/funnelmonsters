@@ -160,8 +160,12 @@ section {
 
 /*#Footer*/
 footer {
-  background: #EAEAEA;
   font-size: 0.9em;
+  background: #635442;
+  color: #fff;
+}
+footer .footer-content a {
+  color: #fff;
 }
 .footer-content {
   padding: 50px 6% 20px 6%;
