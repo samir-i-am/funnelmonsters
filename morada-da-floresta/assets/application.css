@@ -288,6 +288,14 @@ ol li::before {
   padding: 10px;
 }
 
+.minhoquinha {
+  width: 50%;
+  margin: 40px 0;
+  position: relative;
+  display: inline-block;
+}
+
+
 /*
  * #Desktop
  * ===================== */
@@ -355,6 +363,19 @@ ol li::before {
     margin: 0 auto;
     text-align: left;
     max-width: 1140px;
+    position: relative;
+  }
+  .section-faq--accordion {
+    z-index: 10;
+    position: relative;
+  }
+  .minhoquinha {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 200px;
+    margin: 0;
   }
 	.flex-wrapper {
 		padding-left: 6%;
