@@ -96,6 +96,10 @@ section {
   flex-direction: column;
   margin-bottom: 40px;
 }
+.testemonial-item-video video {
+  width: 100%;
+  height: 300px;
+}
 .testemonial-item-video img {
   width: 100%;
 }
