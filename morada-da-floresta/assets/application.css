@@ -327,6 +327,9 @@ ol li::before {
   .mobile-only {
     display: none;
   }
+  .text-bold {
+    font-weight: bold;
+  }
   /*sections*/
   section {
     text-align: left;
