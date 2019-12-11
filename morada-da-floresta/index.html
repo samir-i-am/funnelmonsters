@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="assets/application.css">
 </head>
   <body>
+    <section class="ribbon-tag">
+      Desconto de Natal 20% OFF &nbsp; termina em <div id="clock"></div>
+    </section>
     <header class="header flex-wrapper">
       <div class="flex-grid header-logo-content">
         <img src="assets/images/logo.png" alt="Morada da Floresta Composteiras">
@@ -32,31 +35,8 @@
             </a>
           </div>
           <div class="col-6 section-header-video">
-            <!-- <div class="countdownclock-content">
-              <p class="countdownclock-content-headline">
-                Apenas por tempo limitado!
-              </p>
-              <div id="clock"></div> -->
-              <!-- <div id="clockdiv">
-                <div>
-                  <span class="days"></span>
-                  <div class="smalltext">Days</div>
-                </div>
-                <div>
-                  <span class="hours"></span>
-                  <div class="smalltext">Hours</div>
-                </div>
-                <div>
-                  <span class="minutes"></span>
-                  <div class="smalltext">Minutes</div>
-                </div>
-                <div>
-                  <span class="seconds"></span>
-                  <div class="smalltext">Seconds</div>
-                </div>
-              </div> -->
-            <!-- </div> -->
-            <img src="assets/images/how-it-works-placeholder.png" alt="imagem mostrando quais alimentos vão na composteira">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/cYxfWl2ZGdE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br>
             <a href="selecione-sua-composteira.html" class="button mobile-only" type="button" name="button">
               Comprar agora
             </a>
@@ -69,10 +49,7 @@
         <div class="flex-grid flex-testemonial">
           <div class="testemonial-item col-4">
             <span class="testemonial-item-video">
-              <video width="100%" height="100%" controls="controls" autoplay="false">
-                <source src="assets/videos/Juliano_Cazarre.mp4" type="video/mp4">
-                <source src="assets/videos/Juliano_Cazarre.ogg" type="video/ogg">
-              </video>
+              <iframe width="100%" height="280" src="https://www.youtube.com/embed/Cs7oj_LrtzA" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </span>
             <span class="testemonial-item-content">
               “Já tem uns dois anos que eu tenho essa composteira lá em casa...”
@@ -84,11 +61,7 @@
 
           <div class="testemonial-item  col-4">
             <span class="testemonial-item-video">
-              <video width="100%" height="100%" controls="controls" autoplay="false">
-                <source src="assets/videos/depoimento_1.mp4" type="video/mp4">
-                <source src="assets/videos/Felipe_Aquino.webm" type="video/webm">
-                <source src="assets/videos/Felipe_Aquino.ogg" type="video/ogg">
-              </video>
+              <iframe width="100%" height="280" src="https://www.youtube.com/embed/F9HWyd-rQw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </span>
             <span class="testemonial-item-content">
               “Ela é assim um tamanho que acomoda uma familia de cinco pessoas...
@@ -101,10 +74,7 @@
 
           <div class="testemonial-item  col-4">
             <span class="testemonial-item-video">
-              <video width="100%" height="100%" controls="controls" autoplay="false">
-                <source src="assets/videos/rayssa_bratillieri.mp4" type="video/mp4">
-                <source src="assets/videos/rayssa_bratillieri.ogg" type="video/ogg">
-              </video>
+              <iframe width="100%" height="280" src="https://www.youtube.com/embed/tSNFrBk-BFQ" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </span>
             <span class="testemonial-item-content">
               “Uma ação envolto de uma consciência de que a gente deve dar o
@@ -112,6 +82,30 @@
             </span>
             <span class="testemonial-item-author">
               - Rayssa Bratillieri
+            </span>
+          </div>
+
+          <div class="testemonial-item  col-4">
+            <span class="testemonial-item-video">
+              <iframe width="100%" height="280" src="https://www.youtube.com/embed/RYBVtGpnBik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </span>
+            <span class="testemonial-item-content">
+              “Quando a Morada da Floresta lançou a Humi, eu achei fantástica pela praticidade e pelo design dela. E a vantagem de ter rodízio...”
+            </span>
+            <span class="testemonial-item-author">
+              - Jean Basquenes
+            </span>
+          </div>
+
+          <div class="testemonial-item  col-4">
+            <span class="testemonial-item-video">
+              <iframe width="100%" height="280" src="https://www.youtube.com/embed/9xH5A8k57pc" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </span>
+            <span class="testemonial-item-content">
+              “Eu nunca vou me esquecer da primeira terra que eu colhi da composteira...  Fiquei absolutamente encantada que tudo o que a gente tinha comido que as tinha se transformado naquela terra maravilhosa”
+            </span>
+            <span class="testemonial-item-author">
+              - Ana Teixeira
             </span>
           </div>
         </div><!-- end flex-grid-->
@@ -472,7 +466,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script> -->
-    <!-- <script src="assets/countdownclock.js"></script> -->
+    <script src="assets/countdownclock.js"></script>
     <script src="assets/application.js"></script>
     <!-- <script type="text/javascript">
       $( document ).ready(function() {

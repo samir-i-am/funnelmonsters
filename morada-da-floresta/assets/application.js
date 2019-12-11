@@ -24,7 +24,7 @@ $('input[name="composteira"]').click(function(){
     if (composteiraSelected == "composteira_humi") {
       callToAction.attr("href", "selecione-a-cor-da-composteira.html");
     } else if (composteiraSelected == "composteira_morada") {
-      callToAction.attr("href", "selecione-acessorios-composteira-morada.html");
+      callToAction.attr("href", "selecione-acessorios-composteira-convencional.html");
     }
   }
   else if($(this).prop("checked") == false){
@@ -51,7 +51,9 @@ $('input[id="none"]').prop('checked', true);
 $('input[name="kit"]').click(function(){
   if($(this).prop("checked") == true){
     var kitSelected = this.value;
-    console.log(kitSelected);
+    // console.log(kitSelected);
+    var acessorioSelected = $('input[name="acessorio"]');
+    acessorioSelected.val(kitSelected)
   }
   else if($(this).prop("checked") == false){
      alert("Selecione um acessório.");

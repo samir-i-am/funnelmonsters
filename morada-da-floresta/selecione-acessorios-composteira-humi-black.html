@@ -51,13 +51,13 @@
               <div class="select-kit">
                 <ul class="select-kit-list selects">
                   <li class="select-kit-list-item card-item">
-                    <input type="radio" name="kit" id="kitcompleto" value="kitcompleto" />
+                    <input type="radio" name="kit" id="kitcompleto" value="1443" />
                     <label for="kitcompleto">
                       <div class="kit-description-container selects-label">
                         <span class="kit-image">
                           <img src="assets/images/kit/kitcompleto.jpg" alt="">
                         </span>
-                        <span class="kit-details-item kit-price item-price">R$149</span>
+                        <span class="kit-details-item kit-price item-price">R$139</span>
                         <span class="kit-details-item kit-name">Kit completo</span>
                         <span class="kit-details-item kit-details card-item-bottom-space">
                           <ul class="accessories-included-list">
@@ -76,13 +76,13 @@
                     </label>
                   </li>
                   <li class="select-kit-list-item card-item">
-                    <input type="radio" name="kit" id="kitcompostagem" value="kitcompostagem" />
+                    <input type="radio" name="kit" id="kitcompostagem" value="410" />
                     <label for="kitcompostagem">
                       <div class="kit-description-container selects-label">
                         <span class="kit-image">
                           <img src="assets/images/kit/kitcompostagem.jpg" alt="">
                         </span>
-                        <span class="kit-details-item kit-price item-price">R$79</span>
+                        <span class="kit-details-item kit-price item-price">R$87</span>
                         <span class="kit-details-item kit-name">Kit Compostagem</span>
                         <span class="kit-details-item kit-details card-item-bottom-space">
                           <ul class="accessories-included-list">
@@ -101,13 +101,13 @@
                     </label>
                   </li>
                   <li class="select-kit-list-item card-item">
-                    <input type="radio" name="kit" id="kitrodizios" value="kitrodizios" />
+                    <input type="radio" name="kit" id="kitrodizios" value="665" />
                     <label for="kitrodizios">
                       <div class="kit-description-container selects-label">
                         <span class="kit-image">
                           <img src="assets/images/kit/kitrodizios.jpg" alt="">
                         </span>
-                        <span class="kit-details-item kit-price item-price">R$79</span>
+                        <span class="kit-details-item kit-price item-price">R$87</span>
                         <span class="kit-details-item kit-name">Kit Rodízios</span>
                         <span class="kit-details-item kit-details card-item-bottom-space">
                           <ul class="accessories-included-list">
@@ -126,7 +126,7 @@
                     </label>
                   </li>
                   <li class="select-kit-list-item card-item">
-                    <input type="radio" name="kit" id="none" value="none" />
+                    <input type="radio" name="kit" id="none" value="0" />
                     <label for="none">
                       <div class="kit-description-container selects-label">
                         <span class="kit-image">
@@ -156,9 +156,11 @@
           </div><!--end flexgrid-->
           <div class="flex-grid flex-grid--margin-none">
             <div class="col-5 col-center">
-              <a href="#" class="button button-center">
-                Continuar
-              </a>
+              <form class="" action="modara_checkout.php" method="post">
+                <input style="display:none;" type="text" name="composteira" value="445">
+                <input style="display:none;" type="text" name="acessorio" value="">
+                <input class="button button-center" type="submit" name="submit" value="Continuar">
+              </form>
             </div>
           </div>
         </div>

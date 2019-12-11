@@ -55,6 +55,15 @@ section {
   padding: 60px 0 40px 0;
 }
 
+.ribbon-tag {
+  margin: 0 0 10px 0;
+  padding: 2px 20px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #fff;
+  background: #EB2629;
+}
+
 /*Section #Header*/
 .section-header {
   padding-top: 40px;
@@ -186,6 +195,12 @@ footer .footer-content a {
  }
 .padding-top-40 {
   padding-top: 40px;
+}
+
+#clock {
+  margin: 0 0 0 5px;
+  padding: 0;
+  display: inline-block;
 }
 /* typography */
 html, body {
