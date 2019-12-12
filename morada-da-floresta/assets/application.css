@@ -196,6 +196,9 @@ footer .footer-content a {
 .padding-top-40 {
   padding-top: 40px;
 }
+.text-centered {
+  text-align: center;
+}
 
 #clock {
   margin: 0 0 0 5px;
@@ -365,7 +368,7 @@ ol li::before {
   }
   /*section-why-humi*/
   .section-why-humi {
-    height: 100vh;
+    height: auto;
     display: flex;
     align-items: center;
   }
