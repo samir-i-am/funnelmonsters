@@ -205,14 +205,15 @@ footer .footer-content a {
   padding: 0;
   display: inline-block;
 }
-/* typography */
+/* #typography */
 html, body {
   font-family: 'Lato', Arial, "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.5;
   color: var(--text-color);
 }
 h3 {
-  font-weight: 400;
+  font-weight: bold;
+  text-transform: uppercase;
   font-size: 42px;
   line-height: 1;
   text-align: center;
@@ -359,7 +360,9 @@ ol li::before {
   .section-header {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: auto;
+    max-width: 1440px;
+    margin: 40px auto;
     padding-top: 0;
   }
   .section-header--headline {
