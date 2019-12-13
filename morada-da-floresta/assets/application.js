@@ -51,8 +51,8 @@ $('input[id="none"]').prop('checked', true);
 $('input[name="kit"]').click(function(){
   if($(this).prop("checked") == true){
     var kitSelected = this.value;
-    // console.log(kitSelected);
-    var acessorioSelected = $('input[name="acessorio"]');
+    console.log(kitSelected);
+    var acessorioSelected = $('input[name="product_id_2"]');
     acessorioSelected.val(kitSelected)
   }
   else if($(this).prop("checked") == false){

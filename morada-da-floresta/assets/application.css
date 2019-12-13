@@ -56,7 +56,7 @@ section {
 }
 
 .ribbon-tag {
-  margin: 0 0 10px 0;
+  margin: 0;
   padding: 2px 20px;
   text-align: center;
   font-size: 0.8em;
@@ -362,8 +362,8 @@ ol li::before {
     align-items: center;
     height: auto;
     max-width: 1440px;
-    margin: 40px auto;
-    padding-top: 0;
+    padding: 40px 0 120px 0;
+    margin: 40px auto 0 auto;
   }
   .section-header--headline {
     margin: 10px 0 40px 0;
