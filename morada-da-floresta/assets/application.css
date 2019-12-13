@@ -226,6 +226,7 @@ a.button,
   font-size: 1em;
   text-align: center;
   text-decoration: none;
+  font-weight: bold;
   background: #F8931E;
   color: #fff;
   border: 0;
@@ -248,6 +249,19 @@ a.button,
   display: block;
   margin-top: 20px;
 }
+
+/* #IMAGES */
+.checkout-icon {
+  background: url('../assets/images/checkout-icon.png') no-repeat center center;
+  background: url('../assets/images/checkout-icon.svg') no-repeat center center;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-size: 100%;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+
 
 /* #OL list */
 .why-humi--title {
