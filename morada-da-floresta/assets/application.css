@@ -358,6 +358,13 @@ ol li::before {
     margin: 0;
   }
   /*header*/
+  .header {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .section-first {
+    background: #C9DB03;
+  }
   .section-header {
     display: flex;
     align-items: center;
@@ -371,8 +378,9 @@ ol li::before {
     padding-right: 40px;
   }
   .header-logo-content img {
-    width: 180px;
+    width: 220px;
     margin-left: 0;
+    margin-top: 20px;
   }
   .section-header-video img {
     width: 100%;
