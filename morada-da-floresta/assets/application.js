@@ -59,3 +59,30 @@ $('input[name="kit"]').click(function(){
      alert("Selecione um acessório.");
   }
 });
+
+
+// Set the date we're counting down to
+var dateForSecondVideo = new Date("Dec 25, 2019 01:00:00").getTime();
+var dateForNewYearVideo = new Date("Jan 1, 2020 1:00:00").getTime();
+var x = setInterval(function() {
+  // Get today's date and time
+  var now = new Date().getTime();
+  // Find the distance between now and the count down date
+  var timeToChangeSecond = dateForSecondVideo - now;
+  var timeToChangeNewYear = dateForNewYearVideo - now;
+
+  // If the count down is finished, write some text (default video is sMcy5025uHc)
+  // depois do dia 25
+  if (timeToChangeSecond < 0) {
+    clearInterval(x);
+    $(".fitst-section-video").attr("src", "https://www.youtube.com/embed/eEG0kHY3Rio");
+    $(".composteira_humi_discount_image").attr("src", "assets/images/composteira-humi.jpg");
+    console.log("dia 25");
+  }
+  // depois do dia 1
+  if (timeToChangeNewYear < 0) {
+    clearInterval(x);
+    $(".fitst-section-video").attr("src", "https://www.youtube.com/embed/Zf7fqOaPdHU");
+    console.log("hoje é dia 1 de 2020 feliz ano novo");
+  }
+});
