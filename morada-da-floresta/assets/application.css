@@ -73,7 +73,7 @@ section {
 }
 .header-logo-content img {
   width: 200px;
-  margin-left: -10px;
+  margin: 30px auto 0 auto;
 }
 /* .section-header-video {
   order:-1;
@@ -182,6 +182,18 @@ footer .footer-content a {
 }
 .footer-content a {
   color: #2F2F30;
+}
+.col-awards {
+  order:1;
+}
+.col-terms {
+  order:2;
+}
+.footer-headline {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -463,6 +475,17 @@ ol li::before {
   }
   .button-center {
     margin: 0 auto;
+  }
+  .col-awards {
+    order:2;
+  }
+  .col-terms {
+    order:1;
+  }
+  .ribbon-tag {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
   }
 }
 
