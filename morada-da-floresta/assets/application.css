@@ -112,20 +112,25 @@ section {
 .testemonial-item-video img {
   width: 100%;
 }
+.testemonial-item-content {
+  padding-bottom: 20px;
+}
 .testemonial-item-author {
   font-style: italic;
   font-size: 0.8em;
-  margin-top: 0px;
-  padding-bottom: 20px;
+  /* margin-top: 0px;
+  padding-bottom: 20px; */
   text-align: right;
 }
 .testemonial-item > span:first-child {
   flex-grow: 1;
-  margin-bottom: 13px;
+  /* margin-bottom: 13px; */
 }
 .testemonial-item > span {
   flex-grow: 1;
   margin-bottom: 5px;
+  vertical-align: top;
+  flex-basis: inherit;
 }
 .flex-testemonial {
   display: flex;
