@@ -166,11 +166,17 @@ section {
 .section-faq {
   background: #F2F2F2;
 }
+.faq-accordion-open-close {
+  position: absolute;
+  right: 20px;
+  font-weight: bold;
+}
 
 /*#Footer*/
 footer {
   font-size: 0.9em;
-  background: #635442;
+  /* background: #635442; */
+  background: #28968d;
   color: #fff;
 }
 footer .footer-content a {
@@ -319,6 +325,7 @@ ol li::before {
 .section-faq--accordion dt {
   margin-top: 10px;
   font-weight: bold;
+  position: relative;
 }
 .section-faq--accordion dt a {
   width: 100%;

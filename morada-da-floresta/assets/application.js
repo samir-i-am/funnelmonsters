@@ -60,7 +60,6 @@ $('input[name="kit"]').click(function(){
   }
 });
 
-
 // Set the date we're counting down to
 var dateForSecondVideo = new Date("Dec 25, 2019 01:00:00").getTime();
 var dateForNewYearVideo = new Date("Jan 1, 2020 1:00:00").getTime();
