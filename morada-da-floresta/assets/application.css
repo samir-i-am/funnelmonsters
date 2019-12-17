@@ -115,7 +115,9 @@ section {
 .testemonial-item-author {
   font-style: italic;
   font-size: 0.8em;
-  margin-top: 10px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  text-align: right;
 }
 .testemonial-item > span:first-child {
   flex-grow: 1;
