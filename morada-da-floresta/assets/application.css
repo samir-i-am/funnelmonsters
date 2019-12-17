@@ -217,6 +217,9 @@ footer .footer-content a {
 .text-centered {
   text-align: center;
 }
+.margin-0-auto {
+  margin: 0 auto !important;
+}
 
 #clock {
   margin: 0 0 0 5px;
